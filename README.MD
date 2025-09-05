@@ -39,9 +39,13 @@
 ## ⚡ Запуск локально
 ### 1. Клонировать репозиторий
 ```bash
-git clone https://github.com/
+git clone https://github.com/stalk94/order-management
 cd order-management
 cd backend
 npm install
 cd ../frontend
 npm install
+
+## Тестовые аккаунты
+test12 - 123456 (admin)
+test11 - 123456
