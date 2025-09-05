@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../frontend"
+		},
+		{
+			"path": "../backend"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"package-lock.json": true,
+			"node_modules": true
+		},
+		"explorerExclude.backup": {}
+	}
+}
