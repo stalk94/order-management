@@ -10,6 +10,14 @@ import { Server } from "socket.io";
 import cookieParser from "cookie-parser";
 import { PrismaClient } from "@prisma/client";
 import { authMiddleware, AuthRequest } from "./middleware.js";
+import {
+    register,
+    logMetricsMiddleware,
+    errorMiddleware,
+    logger,
+    clientErrorHandler,
+} from "./monitoring.js";
+
 
 const prisma = new PrismaClient();
 const app = express();
@@ -28,12 +36,25 @@ app.use(cors({
     origin: "http://localhost:3001",        // фронт
     credentials: true
 }));
-app.use(morgan("dev"));
+app.use(morgan("combined", {
+    stream: {
+        write: (message) => logger.info(message.trim()),
+    },
+}));
+app.use(logMetricsMiddleware);
 app.use(express.json());
 app.use(cookieParser());
 
 
 // ----------------------[API]--------------------------------------
+// 📩 эндпоинт для клиентских ошибок
+app.post("/client-error", clientErrorHandler);
+// метрики для Prometheus
+app.get("/metrics", async (req, res) => {
+    res.set("Content-Type", register.contentType);
+    res.end(await register.metrics());
+});
+
 app.post("/login", async (req, res) => {
     const { login, password } = req.body;
     const user = await prisma.user.findUnique({ where: { login } });
@@ -294,6 +315,8 @@ io.on("connection", (socket) => {
     });
 });
 
+
+app.use(errorMiddleware);
 httpServer.listen(PORT, () => {
-    console.log(`🚀 Backend running at http://localhost:${PORT}`);
+    logger.info(`🚀 Server running on http://localhost:${PORT}`);
 });
