@@ -1,5 +1,5 @@
 import React from "react";
-import { API_BASE } from "@system/storage";
+const API_URL = process.env.URL;
 
 type Props = {
     children: React.ReactNode;
@@ -22,7 +22,7 @@ export default class ErrorBoundary extends React.Component<Props, State> {
         console.error("Caught by ErrorBoundary:", error, errorInfo);
 
         // отправка на сервер
-        fetch(API_BASE + "client-error", {
+        fetch(API_URL + "/client-error", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({

@@ -1,8 +1,7 @@
-import { API_BASE } from "@system/storage";
-
+const API_URL = process.env.URL;
 
 function sendClientError(payload: Record<string, any>) {
-    fetch(API_BASE + "client-error", {
+    fetch(API_URL + "/client-error", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

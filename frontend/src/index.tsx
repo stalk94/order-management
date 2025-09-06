@@ -5,7 +5,8 @@ import ReactDOM from "react-dom/client";
 import AuthProvider from "./hooks/AuthProvider";
 import Application from './App';
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-
+import ErrorBoundary from "./helpers/ErrorBoundary";
+import "./helpers/error";
 
 const queryClient = new QueryClient();
 
@@ -13,6 +14,7 @@ const queryClient = new QueryClient();
 const App = () => {
     return (
         <React.StrictMode>
+            <ErrorBoundary>
             <AuthProvider>
                 <QueryClientProvider client={queryClient}>
                 <ThemeProvider>
@@ -27,6 +29,7 @@ const App = () => {
                 </ThemeProvider>
                 </QueryClientProvider>
             </AuthProvider>
+            </ErrorBoundary>
         </React.StrictMode>
     );
 }
