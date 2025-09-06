@@ -1,0 +1,133 @@
+[2025-09-06T09:06:16.120Z] INFO: 🚀 Server running on http://localhost:4000
+[2025-09-06T09:06:54.023Z] INFO: ::1 - - [06/Sep/2025:09:06:54 +0000] "GET /me HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:06:54.024Z] INFO: GET /me 304
+[2025-09-06T09:06:54.029Z] INFO: ::1 - - [06/Sep/2025:09:06:54 +0000] "GET /me HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:06:54.029Z] INFO: GET /me 304
+[2025-09-06T09:06:54.043Z] INFO: ::1 - - [06/Sep/2025:09:06:54 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:06:54.044Z] INFO: GET /orders 304
+[2025-09-06T09:07:15.179Z] INFO: ::1 - - [06/Sep/2025:09:07:15 +0000] "GET /me HTTP/1.1" 401 20 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+[2025-09-06T09:07:15.180Z] INFO: GET /me 401
+[2025-09-06T09:07:15.181Z] INFO: ::1 - - [06/Sep/2025:09:07:15 +0000] "GET /me HTTP/1.1" 401 20 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0"
+[2025-09-06T09:07:15.182Z] INFO: GET /me 401
+[2025-09-06T09:07:36.112Z] INFO: ::1 - - [06/Sep/2025:09:07:36 +0000] "GET /me HTTP/1.1" 401 20 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:07:36.113Z] INFO: GET /me 401
+[2025-09-06T09:07:36.115Z] INFO: ::1 - - [06/Sep/2025:09:07:36 +0000] "GET /me HTTP/1.1" 401 20 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:07:36.116Z] INFO: GET /me 401
+[2025-09-06T09:07:41.348Z] INFO: ::1 - - [06/Sep/2025:09:07:41 +0000] "POST /login HTTP/1.1" 200 63 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:07:41.349Z] INFO: POST /login 200
+[2025-09-06T09:07:41.366Z] INFO: ::1 - - [06/Sep/2025:09:07:41 +0000] "GET /orders/my HTTP/1.1" 200 1209 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:07:41.367Z] INFO: GET /orders/my 200
+[2025-09-06T09:07:41.430Z] INFO: ::1 - - [06/Sep/2025:09:07:41 +0000] "GET /products HTTP/1.1" 200 145 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:07:41.431Z] INFO: GET /products 200
+[2025-09-06T09:07:50.684Z] INFO: ::1 - - [06/Sep/2025:09:07:50 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:07:50.684Z] INFO: GET /orders 304
+[2025-09-06T09:08:10.138Z] INFO: ::1 - - [06/Sep/2025:09:08:10 +0000] "POST /logout HTTP/1.1" 200 16 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:08:10.138Z] INFO: POST /logout 200
+[2025-09-06T09:08:15.711Z] INFO: ::1 - - [06/Sep/2025:09:08:15 +0000] "POST /login HTTP/1.1" 200 64 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:08:15.712Z] INFO: POST /login 200
+[2025-09-06T09:08:15.754Z] INFO: ::1 - - [06/Sep/2025:09:08:15 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:08:15.755Z] INFO: GET /orders 304
+[2025-09-06T09:08:18.912Z] INFO: ::1 - - [06/Sep/2025:09:08:18 +0000] "GET /products HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:08:18.913Z] INFO: GET /products 304
+[2025-09-06T09:08:21.101Z] INFO: ::1 - - [06/Sep/2025:09:08:21 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:08:21.102Z] INFO: GET /orders 304
+[2025-09-06T09:08:25.865Z] INFO: ::1 - - [06/Sep/2025:09:08:25 +0000] "GET /products HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:08:25.865Z] INFO: GET /products 304
+[2025-09-06T09:08:25.866Z] INFO: ::1 - - [06/Sep/2025:09:08:25 +0000] "GET /orders/my HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:08:25.867Z] INFO: GET /orders/my 304
+[2025-09-06T09:08:59.683Z] INFO: ::1 - - [06/Sep/2025:09:08:59 +0000] "POST /orders HTTP/1.1" 200 506 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:08:59.684Z] INFO: POST /orders 200
+[2025-09-06T09:08:59.694Z] INFO: ::1 - - [06/Sep/2025:09:08:59 +0000] "GET /orders/my HTTP/1.1" 200 1716 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:08:59.695Z] INFO: GET /orders/my 200
+[2025-09-06T09:08:59.696Z] INFO: ::1 - - [06/Sep/2025:09:08:59 +0000] "GET /orders HTTP/1.1" 200 1708 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:08:59.697Z] INFO: GET /orders 200
+[2025-09-06T09:09:02.646Z] INFO: ::1 - - [06/Sep/2025:09:09:02 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:02.647Z] INFO: GET /orders 304
+[2025-09-06T09:09:06.422Z] INFO: ::1 - - [06/Sep/2025:09:09:06 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:06.422Z] INFO: GET /orders 304
+[2025-09-06T09:09:25.511Z] INFO: ::1 - - [06/Sep/2025:09:09:25 +0000] "PATCH /orders/4/status HTTP/1.1" 200 348 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:25.512Z] INFO: PATCH /orders/4/status 200
+[2025-09-06T09:09:25.526Z] INFO: ::1 - - [06/Sep/2025:09:09:25 +0000] "GET /orders HTTP/1.1" 200 1714 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:25.527Z] INFO: GET /orders 200
+[2025-09-06T09:09:25.528Z] INFO: ::1 - - [06/Sep/2025:09:09:25 +0000] "GET /orders/my HTTP/1.1" 200 1722 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:25.529Z] INFO: GET /orders/my 200
+[2025-09-06T09:09:25.535Z] INFO: ::1 - - [06/Sep/2025:09:09:25 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:25.536Z] INFO: GET /orders 304
+[2025-09-06T09:09:26.403Z] INFO: ::1 - - [06/Sep/2025:09:09:26 +0000] "GET /orders/my HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:26.404Z] INFO: GET /orders/my 304
+[2025-09-06T09:09:26.405Z] INFO: ::1 - - [06/Sep/2025:09:09:26 +0000] "GET /products HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:26.405Z] INFO: GET /products 304
+[2025-09-06T09:09:36.931Z] INFO: ::1 - - [06/Sep/2025:09:09:36 +0000] "GET /products HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:36.932Z] INFO: GET /products 304
+[2025-09-06T09:09:36.933Z] INFO: ::1 - - [06/Sep/2025:09:09:36 +0000] "GET /orders/my HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:36.934Z] INFO: GET /orders/my 304
+[2025-09-06T09:09:42.669Z] INFO: ::1 - - [06/Sep/2025:09:09:42 +0000] "PATCH /orders/4/status HTTP/1.1" 200 347 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:42.670Z] INFO: PATCH /orders/4/status 200
+[2025-09-06T09:09:42.676Z] INFO: ::1 - - [06/Sep/2025:09:09:42 +0000] "GET /orders/my HTTP/1.1" 200 1721 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:42.676Z] INFO: GET /orders/my 200
+[2025-09-06T09:09:42.686Z] INFO: ::1 - - [06/Sep/2025:09:09:42 +0000] "GET /orders HTTP/1.1" 200 1713 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:42.686Z] INFO: GET /orders 200
+[2025-09-06T09:09:42.691Z] INFO: ::1 - - [06/Sep/2025:09:09:42 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:42.692Z] INFO: GET /orders 304
+[2025-09-06T09:09:45.202Z] INFO: ::1 - - [06/Sep/2025:09:09:45 +0000] "PATCH /orders/4/status HTTP/1.1" 200 348 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:45.202Z] INFO: PATCH /orders/4/status 200
+[2025-09-06T09:09:45.212Z] INFO: ::1 - - [06/Sep/2025:09:09:45 +0000] "GET /orders/my HTTP/1.1" 200 1722 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:45.212Z] INFO: GET /orders/my 200
+[2025-09-06T09:09:45.213Z] INFO: ::1 - - [06/Sep/2025:09:09:45 +0000] "GET /orders HTTP/1.1" 200 1714 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:45.214Z] INFO: GET /orders 200
+[2025-09-06T09:09:45.219Z] INFO: ::1 - - [06/Sep/2025:09:09:45 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:45.220Z] INFO: GET /orders 304
+[2025-09-06T09:09:50.468Z] INFO: ::1 - - [06/Sep/2025:09:09:50 +0000] "PATCH /orders/1/cancel HTTP/1.1" 200 351 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:50.469Z] INFO: PATCH /orders/1/cancel 200
+[2025-09-06T09:09:50.482Z] INFO: ::1 - - [06/Sep/2025:09:09:50 +0000] "GET /orders HTTP/1.1" 200 1714 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:50.483Z] INFO: GET /orders 200
+[2025-09-06T09:09:50.493Z] INFO: ::1 - - [06/Sep/2025:09:09:50 +0000] "GET /orders/my HTTP/1.1" 200 1722 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:50.494Z] INFO: GET /orders/my 200
+[2025-09-06T09:09:50.500Z] INFO: ::1 - - [06/Sep/2025:09:09:50 +0000] "GET /orders/my HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:09:50.501Z] INFO: GET /orders/my 304
+[2025-09-06T09:10:03.106Z] INFO: ::1 - - [06/Sep/2025:09:10:03 +0000] "GET /products HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:10:03.107Z] INFO: GET /products 304
+[2025-09-06T09:10:24.571Z] INFO: ::1 - - [06/Sep/2025:09:10:24 +0000] "POST /products HTTP/1.1" 200 67 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:10:24.572Z] INFO: POST /products 200
+[2025-09-06T09:10:24.577Z] INFO: ::1 - - [06/Sep/2025:09:10:24 +0000] "GET /products HTTP/1.1" 200 213 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:10:24.577Z] INFO: GET /products 200
+[2025-09-06T09:10:25.770Z] INFO: ::1 - - [06/Sep/2025:09:10:25 +0000] "GET /products HTTP/1.1" 200 213 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:10:25.771Z] INFO: GET /products 200
+[2025-09-06T09:10:25.773Z] INFO: ::1 - - [06/Sep/2025:09:10:25 +0000] "GET /orders/my HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:10:25.774Z] INFO: GET /orders/my 304
+[2025-09-06T09:10:37.901Z] INFO: ::1 - - [06/Sep/2025:09:10:37 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:10:37.902Z] INFO: GET /orders 304
+[2025-09-06T09:10:46.938Z] INFO: ::1 - - [06/Sep/2025:09:10:46 +0000] "GET /products HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:10:46.939Z] INFO: GET /products 304
+[2025-09-06T09:10:46.940Z] INFO: ::1 - - [06/Sep/2025:09:10:46 +0000] "GET /orders/my HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:10:46.941Z] INFO: GET /orders/my 304
+[2025-09-06T09:10:48.328Z] INFO: ::1 - - [06/Sep/2025:09:10:48 +0000] "POST /logout HTTP/1.1" 200 16 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:10:48.329Z] INFO: POST /logout 200
+[2025-09-06T09:11:00.180Z] INFO: ::1 - - [06/Sep/2025:09:11:00 +0000] "GET /products HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:11:00.180Z] INFO: GET /products 304
+[2025-09-06T09:11:00.181Z] INFO: ::1 - - [06/Sep/2025:09:11:00 +0000] "GET /orders/my HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:11:00.182Z] INFO: GET /orders/my 304
+[2025-09-06T09:11:11.208Z] INFO: ::1 - - [06/Sep/2025:09:11:11 +0000] "GET /products HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:11:11.209Z] INFO: GET /products 304
+[2025-09-06T09:11:11.210Z] INFO: ::1 - - [06/Sep/2025:09:11:11 +0000] "GET /orders/my HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:11:11.211Z] INFO: GET /orders/my 304
+[2025-09-06T09:12:15.527Z] INFO: ::1 - - [06/Sep/2025:09:12:15 +0000] "POST /logout HTTP/1.1" 200 16 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:12:15.527Z] INFO: POST /logout 200
+[2025-09-06T09:12:18.043Z] INFO: ::1 - - [06/Sep/2025:09:12:18 +0000] "POST /login HTTP/1.1" 200 64 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:12:18.044Z] INFO: POST /login 200
+[2025-09-06T09:12:18.055Z] INFO: ::1 - - [06/Sep/2025:09:12:18 +0000] "GET /orders HTTP/1.1" 200 1714 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:12:18.055Z] INFO: GET /orders 200
+[2025-09-06T09:13:08.927Z] INFO: ::1 - - [06/Sep/2025:09:13:08 +0000] "GET /products HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:13:08.928Z] INFO: GET /products 304
+[2025-09-06T09:14:18.859Z] INFO: ::1 - - [06/Sep/2025:09:14:18 +0000] "GET /me HTTP/1.1" 200 123 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:14:18.860Z] INFO: GET /me 200
+[2025-09-06T09:14:18.863Z] INFO: ::1 - - [06/Sep/2025:09:14:18 +0000] "GET /me HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:14:18.863Z] INFO: GET /me 304
+[2025-09-06T09:14:18.872Z] INFO: ::1 - - [06/Sep/2025:09:14:18 +0000] "GET /orders HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:14:18.873Z] INFO: GET /orders 304
+[2025-09-06T09:14:30.236Z] INFO: ::1 - - [06/Sep/2025:09:14:30 +0000] "GET /metriks HTTP/1.1" 404 146 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:14:30.237Z] INFO: GET /metriks 404
+[2025-09-06T09:14:34.399Z] INFO: ::1 - - [06/Sep/2025:09:14:34 +0000] "GET /metric HTTP/1.1" 404 145 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:14:34.400Z] INFO: GET /metric 404
+[2025-09-06T09:14:37.748Z] INFO: ::1 - - [06/Sep/2025:09:14:37 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+[2025-09-06T09:14:37.748Z] INFO: GET /metrics 200
