@@ -20,11 +20,19 @@
 - CRUD для товаров (каталог продуктов).
 - Уведомления в реальном времени о новых заказах и изменениях.
 
-## 📊 Мониторинг и логи
+### 📊 Мониторинг и логи
 - Prometheus: собирает метрики из backend
 - Метрики доступны на /metrics.
 - Grafana (опционально): можно подключить для красивых дашбордов.
 - Логирование запросов и ошибок через winston (с разделением по уровням: info, error).
+
+#### Grafana requests
+- RPS (Requests per second): rate(http_requests_total[1m])
+- errors: rate(http_errors_total[5m])
+- latency: histogram_quantile(0.95, rate(http_response_time_seconds_bucket[5m]))
+- CPU: nodejs_eventloop_lag_seconds * 1000
+- Memory: nodejs_heap_size_used_bytes / 1024 / 1024
+- Event Loop Lag: nodejs_eventloop_lag_seconds * 1000
 
 
 ## 📦 Cтруктура проекта
@@ -66,4 +74,3 @@ Products add modal (admin):
 ![pick](./assets/add_product.png)
 add order:
 ![pick](./assets/add.png)
-<video src="./assets/video.mp4" controls width="600"></video>
